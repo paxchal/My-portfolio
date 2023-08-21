@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Fira Code", monospace;
+}
+
+body {
+  font-size: 62.5%;
+  background-color: #000000;
+  color: #fcfbfc;
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  color: #fcfbfc;
+  padding: 0.4rem 2.4rem;
+  font-size: 1.2rem;
+  border: solid 0.1rem #fcfbfc;
+  border-radius: 1.6rem;
+}
+.margin-above {
+  margin-top: 1.2rem;
+}
+
+.typing-effect {
+  overflow: hidden; /* Hide overflow to simulate typing effect */
+  white-space: nowrap; /* Prevent text from wrapping */
+  border-right: 1px solid rgb(252, 251, 251); /* Add a cursor effect */
+
+  animation: typing 4s steps(30), cursor 4; /* Animation properties */
+  margin: 0;
+}
+
+@keyframes typing {
+  from {
+    width: 0; /* Start with no width (invisible) */
+  }
+  to {
+    width: 100%; /* Fully reveal the text */
+  }
+}
+
+@keyframes cursor {
+  from,
+  to {
+    border-right-color: transparent; /* Hide and show cursor */
+  }
+  50% {
+    border-right-color: white; /* Show cursor */
+  }
+}

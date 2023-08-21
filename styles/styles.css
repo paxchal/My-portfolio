@@ -1,0 +1,147 @@
+/**   PARAMETERS USED 
+
+white- #fcfbfc
+grey- #878787
+main- #000000
+
+****/
+
+/**Header section***/
+.section-header {
+  height: 6.4rem;
+  background-color: black;
+
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.top-bar {
+  padding: 0 1.2rem;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  color: #fcfbfc;
+  font-size: 1.6rem;
+}
+.top-bar-right {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.menu-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+/**Hero section***/
+.section-hero {
+  height: 100vh;
+
+  padding-top: 9.6rem;
+}
+.hero {
+  padding: 0 1.2rem;
+  margin-top: 4.2rem;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 1.6rem;
+  text-align: center;
+}
+.profile-pic {
+  width: 9.8rem;
+  height: 9.8rem;
+  border-radius: 50%;
+}
+.intro-cnt {
+  display: flex;
+  gap: 0.2rem;
+}
+.dot-icon {
+  width: 1rem;
+}
+
+.intro-name {
+  font-size: 1rem;
+  color: #878787;
+  letter-spacing: 1.4px;
+}
+.header-primary {
+  font-size: 2.4rem;
+}
+.job-description-cnt {
+  max-width: 30rem;
+  text-align: center;
+}
+.job-description {
+  font-size: 1rem;
+  color: #878787;
+}
+.cta {
+  text-decoration: none;
+  color: #fcfbfc;
+  font-size: 0.8rem;
+  border-bottom: solid 1px #fcfbfc;
+}
+
+/**BRANDS section***/
+.section-brands {
+  /* background-color: #e0dcdc; */
+  padding-top: 4.8rem;
+}
+.brands {
+  padding: 0 1.2rem;
+}
+
+.brands-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.brand-title {
+  color: #878787;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 1.6px;
+}
+.header-secondary {
+  text-align: center;
+  color: #fcfbfc;
+  font-size: 1.6rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+}
+.coinskro-logo {
+  width: 6.2rem;
+
+  height: 5rem;
+  fill: #fcfbfc;
+  filter: grayscale(1);
+  opacity: 0.2;
+}
+
+.hantec-logo {
+  width: 9.6rem;
+  margin-left: 1rem;
+}
+.cjc-logo {
+  width: 4.2rem;
+}
+
+.brands-logos img {
+  filter: grayscale(1);
+  opacity: 0.6;
+}
