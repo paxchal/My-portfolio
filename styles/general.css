@@ -19,6 +19,17 @@ body {
 
   background-size: cover;
 }
+.header-primary {
+  font-size: 2.4rem;
+  color: #ffffff;
+}
+.header-secondary {
+  /* text-align: center; */
+  color: #fcfbfc;
+  font-size: 1.6rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+}
 
 .container {
   max-width: 100rem;
@@ -73,4 +84,12 @@ body {
 
 .cont-padding {
   padding: 0 1.2rem;
+}
+
+.grid-justify-self {
+  justify-self: start;
+}
+
+.hide-element {
+  display: none;
 }

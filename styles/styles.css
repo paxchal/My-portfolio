@@ -86,10 +86,7 @@ main- #000000
   letter-spacing: 1.4px;
   box-shadow: 0 2px 4px rgba(80, 77, 77 0.2);
 }
-.header-primary {
-  font-size: 2.4rem;
-  color: #ffffff;
-}
+
 .job-description-cnt {
   max-width: 30rem;
   text-align: center;
@@ -103,7 +100,7 @@ main- #000000
   display: inline-block;
   text-decoration: none;
   color: #f6eaea;
-  font-size: 0.8rem;
+  font-size: 1rem;
   border-bottom: solid 1px #fcfbfc;
 }
 
@@ -135,11 +132,6 @@ main- #000000
   letter-spacing: 1.6px;
 }
 .header-secondary {
-  text-align: center;
-  color: #fcfbfc;
-  font-size: 1.6rem;
-  margin-top: 1.2rem;
-  margin-bottom: 1rem;
 }
 .coinskro-logo {
   width: 6.2rem;
@@ -170,8 +162,35 @@ main- #000000
 .about-cnt {
   display: grid;
   grid-template-columns: 1fr 1fr;
+
+  justify-items: center;
+  row-gap: 3rem;
+  column-gap: 1rem;
+  margin-top: 2.8rem;
+}
+.about-img-cnt {
+  overflow: hidden;
+  border-radius: 0.4rem;
 }
 
 .about-img {
-  width: 24rem;
+  width: 100%;
+  max-width: 30rem;
+  height: auto;
+  border-radius: 0.4rem;
+  /* box-shadow: 0px 0px 10px rgba(256, 256, 256, 0.1); */
+
+  transition: 0.5s;
+}
+
+.about-img:hover {
+  transform: scale(120%);
+}
+.about-txt-cnt {
+  max-width: 30rem;
+}
+
+.about-txt {
+  font-size: 0.9rem;
+  line-height: 1.8;
 }

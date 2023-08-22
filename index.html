@@ -18,14 +18,18 @@
       <div class="top-bar container">
         <p class="name">Dume Paschal</p>
         <div class="top-bar-right">
-          <a class="btn btn-header" href="#">
+          <a class="btn btn-header hide-element" href="#">
             <span>Let's talk</span>
             <img
               class="whatsapp-icon"
               src="Icons/whatsapp-icon.svg"
               alt="Whatsapp icon"
           /></a>
-          <img class="menu-icon" src="Icons/menu-icon.svg" alt="Menu icon" />
+          <img
+            class="menu-icon hide-element"
+            src="Icons/menu-icon.svg"
+            alt="Menu icon"
+          />
         </div>
       </div>
     </header>
@@ -110,19 +114,29 @@
 
       <section class="section-about">
         <div class="about container cont-padding">
-          <h2>About me.</h2>
+          <h2 class="header-secondary">About me.</h2>
           <div class="about-cnt">
-            <div><img class="about-img" src="img/about1.jpg" alt="" /></div>
-            <div>
-              Passionate HTML/CSS developer crafting captivating web
-              experiences. Seamlessly blending design and code to build
-              user-centric, responsive interfaces that leave a lasting impact.
+            <div class="about-img-cnt">
+              <img class="about-img" src="img/about1.jpg" alt="" />
             </div>
-            <div>
-              Creating seamless, aesthetic web interfaces that merge design with
-              flawless code. Let's shape memorable digital journeys together.
+            <div class="about-txt-cnt grid-justify-self">
+              <p class="about-txt">
+                Passionate HTML/CSS developer crafting captivating web
+                experiences. Seamlessly blending design and code to build
+                user-centric, responsive interfaces that leave a lasting impact.
+              </p>
             </div>
-            <div><img class="about-img" src="img/about2.jpg" alt="" /></div>
+            <div class="about-txt-cnt">
+              <p class="about-txt">
+                Creating seamless, aesthetic web interfaces that merge design
+                with flawless code. Let's shape memorable digital journeys
+                together.
+              </p>
+            </div>
+
+            <div class="about-img-cnt grid-justify-self">
+              <img class="about-img" src="img/about2.jpg" alt="" />
+            </div>
           </div>
         </div>
       </section>
