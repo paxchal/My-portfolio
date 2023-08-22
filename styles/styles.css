@@ -100,6 +100,7 @@ main- #000000
 }
 .cta:link,
 .cta:visited {
+  display: inline-block;
   text-decoration: none;
   color: #f6eaea;
   font-size: 0.8rem;
@@ -112,7 +113,9 @@ main- #000000
 }
 
 /**BRANDS section***/
-
+.section-brands {
+  margin-top: 9.6rem;
+}
 .brands {
   padding: 0 1.2rem;
 }
