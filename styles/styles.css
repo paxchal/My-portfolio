@@ -88,7 +88,7 @@ main- #000000
 }
 
 .job-description-cnt {
-  max-width: 30rem;
+  max-width: 40rem;
   text-align: center;
   font-size: 1.4rem;
 }
@@ -118,6 +118,7 @@ main- #000000
 }
 
 .brands-logos {
+  margin-top: 1.6rem;
   display: flex;
   align-items: center;
   justify-content: center;
