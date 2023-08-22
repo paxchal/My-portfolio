@@ -131,12 +131,10 @@ main- #000000
   font-size: 0.8rem;
   letter-spacing: 1.6px;
 }
-.header-secondary {
-}
-.coinskro-logo {
-  width: 6.2rem;
 
-  height: 5rem;
+.coinskro-logo {
+  width: 2.4rem;
+
   fill: #fcfbfc;
   filter: grayscale(1);
   opacity: 0.2;
@@ -144,10 +142,11 @@ main- #000000
 
 .hantec-logo {
   width: 9.6rem;
-  margin-left: 1rem;
+  height: auto;
 }
 .cjc-logo {
   width: 4.2rem;
+  height: auto;
 }
 
 .brands-logos img {
