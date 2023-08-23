@@ -39,6 +39,9 @@ body {
 .black-text {
   color: #000000;
 }
+.center {
+  text-align: center;
+}
 
 .btn:link,
 .btn:visited {
@@ -51,6 +54,9 @@ body {
 }
 .margin-above {
   margin-top: 1.2rem;
+}
+.margin-below {
+  margin-bottom: 3rem;
 }
 
 .btn:hover,
@@ -83,6 +89,33 @@ body {
   }
   50% {
     border-right-color: white; /* Show cursor */
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  55% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-200%);
+  }
+  80% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-300%);
   }
 }
 
