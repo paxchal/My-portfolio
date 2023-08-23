@@ -175,6 +175,7 @@ main- #000000
 .about-img-cnt {
   overflow: hidden;
   border-radius: 0.4rem;
+  box-shadow: 0px 4px 10px rgba(256, 256, 256, 0.1);
 }
 
 .about-img {
@@ -182,7 +183,6 @@ main- #000000
   max-width: 30rem;
   height: auto;
   border-radius: 0.4rem;
-  /* box-shadow: 0px 0px 10px rgba(256, 256, 256, 0.1); */
 
   transition: 0.5s;
 }
