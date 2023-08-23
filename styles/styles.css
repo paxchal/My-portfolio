@@ -93,10 +93,9 @@ main- #000000
 .job-description-cnt {
   max-width: 40rem;
   text-align: center;
-  font-size: 1.4rem;
 }
 .job-description {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.6;
 }
 .cta:link,
@@ -195,18 +194,35 @@ main- #000000
 }
 
 .about-txt {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   line-height: 1.8;
 }
 
 /**How section***/
 
 .section-how {
-  background-color: #fcfbfc;
-  color: black;
+  margin-bottom: 9.6rem;
 }
 
 .how {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+
+.how-title {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.how-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.how-icon-cnt {
+  margin-bottom: 1.6rem;
+}
+.how-icon {
+  height: 2.4rem;
+  width: 2.4rem;
 }
