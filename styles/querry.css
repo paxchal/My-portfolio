@@ -39,6 +39,9 @@
 }
 
 @media (max-width: 50em) {
+  body {
+    font-size: 40%;
+  }
   .btn-header {
     display: none;
   }
