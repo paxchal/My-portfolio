@@ -26,6 +26,7 @@
     justify-self: center;
   }
   .small-width-move {
+    margin-top: 3.6rem;
     grid-row: 3 /4;
   }
   .about-img {
