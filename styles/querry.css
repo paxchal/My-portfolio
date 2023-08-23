@@ -1,0 +1,48 @@
+@media (max-width: 70em) {
+  .how {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+  }
+  .how-description {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 60em) {
+  body {
+    font-size: 55%;
+  }
+  .about-cnt {
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    gap: 3.6rem;
+
+    margin-top: 2.8rem;
+    margin-left: 0;
+  }
+  .grid-justify-self {
+    justify-self: center;
+  }
+  .small-width-move {
+    grid-row: 3 /4;
+  }
+  .about-img {
+    width: 100%;
+    max-width: 30rem;
+  }
+
+  .about-txt-cnt {
+    max-width: 30rem;
+  }
+}
+
+@media (max-width: 50em) {
+  .btn-header {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+}

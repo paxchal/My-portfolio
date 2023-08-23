@@ -41,6 +41,7 @@ main- #000000
 .menu-icon {
   width: 2.4rem;
   height: 2.4rem;
+  display: none;
 }
 
 .btn-header {
@@ -213,6 +214,7 @@ main- #000000
 .how-title {
   font-size: 1.4rem;
   margin-bottom: 1rem;
+  font-weight: 700;
 }
 .how-description {
   font-size: 1.2rem;
@@ -261,4 +263,29 @@ main- #000000
 
 .portfolio-img {
   width: 100%;
+}
+
+/****SECTION BUILD****/
+
+.section-build {
+  margin-bottom: 19.2rem;
+}
+
+.build-des-cnt {
+  max-width: 600px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+/*****  SECTION FOOTER****/
+
+.footer-cnt {
+  font-size: 1rem;
+  height: 9.6rem;
+  border-top: solid 1px #504f4f;
+  color: #a8a8a8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

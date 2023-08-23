@@ -132,3 +132,7 @@ body {
 .hide-element {
   display: none;
 }
+
+footer {
+  height: 9.6rem;
+}
