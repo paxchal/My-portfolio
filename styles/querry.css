@@ -10,6 +10,9 @@
 }
 
 @media (max-width: 60em) {
+  .logo-icon {
+    width: 6.5rem;
+  }
   body {
     font-size: 55%;
   }
@@ -78,5 +81,11 @@
   }
   body {
     font-size: 20%;
+  }
+  .logo-icon {
+    width: 4.5rem;
+  }
+  .menu-icon {
+    width: 2.2rem;
   }
 }
