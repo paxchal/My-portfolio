@@ -2,7 +2,7 @@
   .how {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2.4rem;
+    gap: 4.6rem;
   }
   .how-description {
     max-width: 600px;
