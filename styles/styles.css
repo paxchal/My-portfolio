@@ -294,3 +294,11 @@ main- #000000
   justify-content: center;
   align-items: center;
 }
+
+.feedback {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #fca0a0;
+  font-size: 0.7rem;
+  border-bottom: solid 1px #fca0a0;
+}
