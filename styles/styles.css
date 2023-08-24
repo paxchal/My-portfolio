@@ -20,9 +20,12 @@ main- #000000
   text-decoration: none;
 }
 
+.logo-icon {
+  width: 9rem;
+}
 .top-bar {
   padding: 0 1.2rem;
-  height: 6rem;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
