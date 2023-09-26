@@ -49,9 +49,20 @@
   body {
     font-size: 30%;
   }
-  .btn-header {
+  .btn-header span {
     display: none;
   }
+  .btn-header img {
+    width: 1.6rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    padding: 0.4rem 1.4rem;
+
+    border: none;
+  }
+
   .menu-icon {
     display: block;
   }
